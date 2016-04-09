@@ -13,6 +13,8 @@ html:
 ```
 
 js:
+```
 $(function() {
   tab('tab', 'mouseover');
 });
+```
