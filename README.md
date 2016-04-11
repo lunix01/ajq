@@ -1,7 +1,7 @@
 # atab
 tab，jquery片段代码，暂时就这样，看看就好，慎重使用。
 
-##使用示例
+##Use example
 html:
 ```
 <nav>
