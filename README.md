@@ -1,5 +1,6 @@
 # atab
-tab，jquery片段代码，暂时就这样，看看就好，慎重使用。
+tab, jquery code snippets. 
+In this way, take a look at it, and be careful to use.
 
 ##Use example
 html:
