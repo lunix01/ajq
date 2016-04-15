@@ -1,7 +1,7 @@
 function tab(groupname, mode, activeClass) {
     var $item = $('[data-groupname="' + groupname + '"][data-tab="item"]');
     var $content = $('[data-groupname="' + groupname + '"][data-tab="content"]');
-    var $itemActive = $item.filter('.' + activeClass + '');
+    var $itemActive = $item.filter('.' + (activeClass || 'active'));
     if($itemActive.length == 1) {
         var index = $item.index($itemActive);
         $content.not($content.eq(index)).hide();
