@@ -1,8 +1,9 @@
-# atab
-tab, jquery code snippets. 
+# ajq
+jquery code snippets. 
 In this way, take a look at it, and be careful to use.
 
 ##Use example
+###tab
 html:
 ```
 <nav>
@@ -12,7 +13,6 @@ html:
 <section data-groupname="tab" data-tab="content">1 content</section>
 <section data-groupname="tab" data-tab="content">2 content</section>
 ```
-
 js:
 ```
 $(function() {
