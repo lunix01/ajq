@@ -1,9 +1,8 @@
 # ajq
 jquery code snippets. 
 In this way, take a look at it, and be careful to use.
-
 ##Use example
-###tab
+###atab.js
 html:
 ```
 <nav>
