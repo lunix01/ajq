@@ -41,3 +41,6 @@ $('#J_addChk').on('click', function() {
     $('#J_chkContent').append('<input type="checkbox" class="J_chk"> test');
 });
 ```
+
+###cascader
+warn: version 0.0.0.1
