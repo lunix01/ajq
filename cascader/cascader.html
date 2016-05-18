@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>cascader</title>
+    <script src="jquery-1.12.3.min.js"></script>
+
+    <link href="cascader.css" rel="stylesheet">
+    <script src="cascader.js"></script>
+</head>
+<body>
+<div id="J_value"></div>
+<div id="J_cascader" style="margin-left:100px;padding-top:100px;"></div>
+<div id="J_value1"></div>
+<div id="J_cascader1" style="margin-left:100px;padding-top:200px;"></div>
+<script>
+    $(function() {
+        $('#J_cascader').cascader({
+            name: 'cascader1',
+            url: 'data.json',
+            complete: function(v) {
+                $('#J_value').text(v);
+            }
+        });
+        $('#J_cascader1').cascader({
+            name: 'cascader2',
+            url: 'data.json',
+            complete: function(v) {
+                $('#J_value1').text(v);
+            }
+        });
+    });
+</script>
+</body>
+</html>
