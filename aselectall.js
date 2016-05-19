@@ -1,6 +1,5 @@
 function selectAll(btn, chk) {
-    $btn = $(btn);
-    $btn.on('click', function() {
+    $(btn).on('click', function() {
         if($(this).is(':checked')) {
             $(chk).prop('checked', 'checked');
         } else {
@@ -15,9 +14,9 @@ function selectAll(btn, chk) {
             }
         });
         if($(chk).length == chkArray.length) {
-            $btn.prop('checked', 'checked');
+            $(btn).prop('checked', 'checked');
         } else {
-            $btn.prop('checked', '');
+            $(btn).prop('checked', '');
         }
     });
 }
