@@ -44,3 +44,6 @@ $('#J_addChk').on('click', function() {
 
 ###cascader
 warn: version 0.0.0.1
+
+###imgupload
+warn: version 0.0.0.1

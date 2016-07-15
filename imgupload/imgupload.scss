@@ -1,0 +1,56 @@
+.fileupload {
+    display: inline-block;
+    /*
+    .fileselect-btn {
+        margin: 0 0 4px;
+        padding: 3px 15px;
+        border: 1px solid #000;
+        display: inline-block;
+        background: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: none;
+        color: $main-color;
+        vertical-align: middle;
+        user-select: none;
+        cursor: pointer;
+    }
+    */
+    .fileselect-img {
+        margin: 0 0 4px;
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+        background: #fff url(./pic-add.png) center no-repeat;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    .imgbox {
+        position: relative;
+        margin: 0 4px 4px 0;
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+        vertical-align: middle;
+        img {
+            width: 90px;
+            height: 90px;
+        }
+        .delete {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 90px;
+            height: 90px;
+            background: transparent;
+        }
+        &:hover {
+            .delete {
+                background: #000 url(./pic-del.png) center no-repeat;
+                opacity: 0.6;
+                cursor: pointer;
+            }
+        }
+    }
+}
