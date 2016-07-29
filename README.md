@@ -18,7 +18,7 @@ $(function() {
   tab('tab', 'mouseover', 'active-test');
 });
 ```
-另，
+another，
 html:
 ```
 <select>
