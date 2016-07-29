@@ -18,6 +18,28 @@ $(function() {
   tab('tab', 'mouseover', 'active-test');
 });
 ```
+另，
+html:
+```
+<select>
+    <option data-groupname="ttt" data-tab="item">111</option>
+    <option data-groupname="ttt" data-tab="item">222</option>
+</select>
+<div data-groupname="ttt" data-tab="content">
+    ttt1111111111内容
+</div>
+<div data-groupname="ttt" data-tab="content">
+    ttt22222内容
+</div>
+```
+```
+tab('ttt');
+// chrome option click
+$('[data-groupname="ttt"]').parents('select').on('change', function() {
+    var ii = $(this).get(0).selectedIndex;
+    $(this).find('option:selected').trigger('click');
+});
+```
 ###aselectall.js
 html:
 ```
