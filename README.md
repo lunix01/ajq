@@ -2,7 +2,7 @@
 jquery code snippets. 
 In this way, take a look at it, and be careful to use.
 ##Use example
-###atab.js
+## atab.js
 html:
 ```
 <nav>
@@ -40,7 +40,7 @@ $('[data-groupname="ttt"]').parents('select').on('change', function() {
     $(this).find('option:selected').trigger('click');
 });
 ```
-###aselectall.js
+## aselectall.js
 html:
 ```
 <div>
@@ -64,8 +64,8 @@ $('#J_addChk').on('click', function() {
 });
 ```
 
-###cascader
+## cascader
 warn: version 0.0.0.1
 
-###imgupload
+## imgupload
 warn: version 0.0.0.1
